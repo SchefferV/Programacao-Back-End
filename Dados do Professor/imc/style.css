@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulario {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 80%;
+  text-align: center;
+}
+
+.campo-form {
+    margin-top: 1em;
+    font-size: 26px;
+}
+
+.campo-form > input[type=number] {
+    width: 80px;
+    font-size: 26px;
+}
+.campo-form > input[type=submit] {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(194, 231, 240);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
